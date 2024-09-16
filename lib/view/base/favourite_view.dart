@@ -1,4 +1,3 @@
-import 'package:elevate_flutter_task/business_logic/products_bloc/products_cubit/products_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -10,7 +9,6 @@ class FavouriteView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ProductsCubit cubit = ProductsCubit.get(context);
     return Positioned(
       top: top,
       right: right,
